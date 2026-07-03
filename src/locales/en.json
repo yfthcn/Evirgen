@@ -1,0 +1,12 @@
+{
+  "autoRefresh": "Auto refresh",
+  "interval": "Interval",
+  "secShort": "sec",
+  "minShort": "min",
+  "apply": "Apply",
+  "hardReload": "Hard reload (bypass cache)",
+  "activeTimers": "Active timers",
+  "stopAll": "Stop all timers",
+  "off": "OFF",
+  "unsupported": "This page can't be auto-refreshed (browser-internal or restricted page)."
+}

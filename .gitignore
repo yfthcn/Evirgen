@@ -1,0 +1,4 @@
+dist/
+store/*.png
+__pycache__/
+*.pyc

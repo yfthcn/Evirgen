@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="brand-mark">&#8635;</span>
+      <span class="brand-name">EVİRGEN</span>
+    </div>
+    <select id="langSelect" title="Language"></select>
+  </header>
+
+  <main>
+    <!-- shown on browser-internal pages where no content script can run -->
+    <section id="unsupported" class="hidden">
+      <p data-i18n="unsupported"></p>
+    </section>
+
+    <section id="controls">
+      <div class="row toggle-row">
+        <span class="label" data-i18n="autoRefresh"></span>
+        <label class="switch">
+          <input type="checkbox" id="enabledToggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div id="countdown" class="countdown" aria-live="off">--:--</div>
+
+      <div class="section-label" data-i18n="interval"></div>
+      <div class="presets" id="presets"></div>
+
+      <div class="custom-row">
+        <input type="number" id="customValue" min="1" max="9999" value="30">
+        <select id="customUnit">
+          <option value="s" data-i18n="secShort"></option>
+          <option value="m" selected data-i18n="minShort"></option>
+        </select>
+        <button id="applyCustom" data-i18n="apply"></button>
+      </div>
+
+      <label class="check-row">
+        <input type="checkbox" id="bypassCache">
+        <span data-i18n="hardReload"></span>
+      </label>
+    </section>
+
+    <section id="activeSection" class="hidden">
+      <div class="section-label" data-i18n="activeTimers"></div>
+      <ul id="activeList"></ul>
+      <button id="stopAll" class="danger" data-i18n="stopAll"></button>
+    </section>
+  </main>
+
+  <footer>
+    <span id="version"></span>
+    <span class="footer-links">
+      <a href="https://kaktusdev.net" target="_blank" rel="noopener">kaktusdev.net</a>
+      <span class="sep">/</span>
+      <a href="https://github.com/yfthcn" target="_blank" rel="noopener">github</a>
+    </span>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

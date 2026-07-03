@@ -1,0 +1,12 @@
+{
+  "autoRefresh": "Otomatik yenileme",
+  "interval": "Aralık",
+  "secShort": "sn",
+  "minShort": "dk",
+  "apply": "Uygula",
+  "hardReload": "Sert yenileme (önbelleği atla)",
+  "activeTimers": "Aktif zamanlayıcılar",
+  "stopAll": "Tümünü durdur",
+  "off": "KAPAT",
+  "unsupported": "Bu sayfa otomatik yenilenemez (tarayıcı iç sayfası veya kısıtlı sayfa)."
+}
