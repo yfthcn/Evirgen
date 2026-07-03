@@ -6,7 +6,7 @@ Zero dependencies, plain vanilla JavaScript. A [kaktusdev.net](https://kaktusdev
 
 *Evirgen* means "the one who turns" in Turkic mythology — a fitting name for a refresher.
 
-[Türkçe README](README.tr.md) · [Privacy policy](PRIVACY.md)
+[Türkçe README](README.tr.md) · [Privacy policy](https://yfthcn.github.io/Evirgen/privacy.html)
 
 ## Why it's light
 
